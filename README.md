@@ -1,53 +1,68 @@
-# HiveFund Data Analysis Project
+# HiveFund
 
-## Overview
+HiveFund is an AI-powered crowdfunding platform designed to improve trust, transparency, and security in online fundraising. It helps individuals and organizations raise funds for social causes, startups, emergencies, and community projects while reducing fraud and misuse.
 
-The HiveFund Data Analysis Project is about looking at job listing data to find patterns and things we can learn from it. We do this by cleaning up the data getting it ready and then looking at it to help people make decisions based on what the data says.
+##  Features
+
+* **AI-Based Campaign Verification**
+  Machine learning models analyze campaign content, documents, and metadata to assess authenticity and credibility.
+
+* **Trust Scoring System**
+  Each campaign receives a trust score based on risk indicators, historical behavior, and content analysis. High-trust campaigns gain better visibility.
+
+* **Fraud Detection**
+  AI continuously monitors user activity and transactions to detect abnormal patterns such as fake engagement, duplicate campaigns, or coordinated misuse.
+
+* **Admin Review Dashboard**
+  Administrators can review AI insights before approving or rejecting campaigns, combining automation with human oversight.
+
+* **Secure Payments**
+  Integrated payment gateway for safe and seamless donations.
+
+* **User-Friendly Interface**
+  Simple campaign creation, transparent donation tracking, and clear trust indicators for donors.
+
+##  Technology Stack
+
+* **Frontend:** React.js
+* **Backend:** Node.js / Express
+* **Database:** MongoDB
+* **AI/ML:** Python (Scikit-learn / NLP models)
+* **Payments:** Razorpay (or equivalent gateway)
+
+##  Architecture
+
+1. **User Authentication** – Secure login and role-based access.
+2. **Campaign Management** – Create, edit, and submit campaigns.
+3. **AI Verification Layer** –
+
+   * Text classification for content validity
+   * Anomaly detection for suspicious patterns
+   * Trust score generation
+4. **Admin Approval** – Human review supported by AI insights.
+5. **Payment & Records** – Secure transactions and donation tracking.
+
+##  How It Works
+
+1. User submits a campaign with details and documents.
+2. AI models analyze the content and generate a trust score.
+3. Admin reviews the AI report and approves valid campaigns.
+4. Donors contribute through the payment gateway.
+5. System continuously monitors activity for fraud prevention.
+
+##  Objective
+
+HiveFund aims to make crowdfunding safer, more reliable, and data-driven by using AI and machine learning to prevent scams, promote genuine causes, and build donor confidence.
+
+
+## Dont start blockchain, it is not yet implemented. 
+Command to start frontend : npm start
+Command to start backend : npm run dev
+
+##  License
+
+This project is developed for academic and demonstration purposes.
 
 ---
 
-## Features
-
-- We clean up the data and get it ready to use
-
-- We look at the data to understand what is going on this is called Exploratory Data Analysis or EDA for short
-
-- We try to find patterns and trends in the data
-
-- We use the data to help people make good decisions
-
----
-
-## Tech Stack
-
-- We use Python to write our code
-
-- We use Pandas to help us work with the data
-
-- We use NumPy to do math things with the data
-
-- We use Matplotlib to make pictures of the data
-
----
-
-## Dataset
-
-- We use a dataset that has a lot of job listings in it
-
-- We clean up the data and make sure it is accurate so we can trust the results
-
----
-
-## How to Run
-
-1. Open the project in something like Jupyter Notebook or VS Code
-
-2. Install the libraries we need like Pandas and NumPy and Matplotlib
-
-3. Run the code in the scripts or notebook
-
----
-
-## Purpose
-
-The purpose of the HiveFund Data Analysis Project is to use data analysis to get information from job data and understand what is happening with hiring trends. We want to use HiveFund Data Analysis Project to look at the job data and see what we can learn from it. The HiveFund Data Analysis Project is, about using data to help us make good decisions.
+**Author:** Prajwal K M
